@@ -124,3 +124,9 @@ body > h1 {
     display: none;
   }
 }
+
+@media (min-width: 992px) {
+  .box-1 {
+    display: none;
+  }
+}

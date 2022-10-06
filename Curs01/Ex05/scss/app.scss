@@ -1,0 +1,71 @@
+ul {
+  a {
+    text-decoration: none;
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+ul {
+  a {
+    &:active {
+      color: purple;
+    }
+  }
+}
+
+ul {
+  a {
+    &:visited {
+      color: green;
+    }
+  }
+}
+
+.para {
+  padding: 10px 20px;
+
+  .reverse & {
+    width: 50%;
+    padding: 0;
+  }
+}
+
+.para-short {
+  width: 50%;
+  margin: 0 auto;
+
+  .reverse & {
+    width: 100%;
+    padding: 10px 20px;
+  }
+}
+
+ol {
+  a {
+    &:hover {
+      color: magenta;
+    }
+  }
+}
+
+ol {
+  a {
+    &:active {
+      color: pink;
+    }
+  }
+}
+
+ol {
+  a:visited {
+    color: lightcoral;
+  }
+}
+
+.all-visited {
+  a {
+    text-decoration: line-through;
+  }
+}
