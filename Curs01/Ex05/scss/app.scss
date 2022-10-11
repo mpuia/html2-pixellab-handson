@@ -58,14 +58,8 @@ ol {
   }
 }
 
-ol {
-  a:visited {
-    color: lightcoral;
-  }
-}
-
-.all-visited {
-  a {
+a {
+  .all-visited & {
     text-decoration: line-through;
   }
 }
