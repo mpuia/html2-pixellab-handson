@@ -11,6 +11,12 @@
 }
 
 @for $i from 1 through 9 {
+  .box-0#{$i} {
+    border-width: $i * 1px;
+  }
+}
+
+@for $i from 1 through 9 {
   .box-#{$i} {
     @if $i % 2 ==0 {
       background-color: gray;
@@ -19,3 +25,5 @@
     }
   }
 }
+
+// pixel tab are bug si aici? zice : Elementul cu clasa box-01 trebuie sa aiba bordura de 1px. Grosimea bordurii detectata este: 2px. - asa face la 01/03/05/07/09

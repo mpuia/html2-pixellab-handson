@@ -16,7 +16,7 @@
   }
 }
 
-@for $i from 0 to 6 {
+@for $i from 0 to 5 {
   .box-0#{$i + 1} {
     width: 5px * $i + 150px;
     height: 5px * $i + 150px;
@@ -30,3 +30,5 @@
     }
   }
 }
+
+// aici cred ca e acl bug ca am doar 6/13 in pixeltab
