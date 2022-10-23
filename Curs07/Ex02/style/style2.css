@@ -11,12 +11,16 @@ body {
 }
 
 @keyframes travel {
-  33% {
+  15% {
     transform: translate(0, calc(100vh - 100px));
   }
 
-  66% {
+  30% {
     transform: translate(calc(100vw - 100px), calc(100vh - 100px));
+  }
+
+  45% {
+    transform: translate(calc(100vh - 100px), 0);
   }
 
   0%,
