@@ -18,3 +18,32 @@
 }
 
 /* can't touch this 🔨 */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 120px 80px 120px 80px;
+  grid-template-rows: 60px 100px 60px 100px;
+}
+
+.grid-item-1 {
+  grid-column-start: 1;
+  grid-column-end: 3 span;
+  grid-row-start: 1;
+  grid-row-end: 1 span;
+}
+
+.grid-item-2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  opacity: 0.5;
+}
+
+.grid-item-3 {
+  grid-column-start: 2;
+  grid-column-end: -1;
+  grid-row-start: 2;
+  grid-row-end: -1;
+  opacity: 0.5;
+}
